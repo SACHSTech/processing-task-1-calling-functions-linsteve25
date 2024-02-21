@@ -68,8 +68,5 @@ public class Sketch extends PApplet {
 
     fill(121, 141, 143);
     rect(0, 280, 400, 280);
-    
   }
-  
-  // define other methods down here.
 }
