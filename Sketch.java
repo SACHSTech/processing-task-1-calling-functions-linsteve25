@@ -1,3 +1,5 @@
+import javax.swing.text.StyledEditorKit.ForegroundAction;
+
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
@@ -16,7 +18,10 @@ public class Sketch extends PApplet {
    * values here i.e background, stroke, fill etc.
    */
   public void setup() {
-    background(210, 255, 173);
+    
+    background(81, 201, 245);
+    stroke(18, 18 ,18);
+
   }
 
   /**
@@ -24,12 +29,46 @@ public class Sketch extends PApplet {
    */
   public void draw() {
 	  
-	// sample code, delete this stuff
-    stroke(128);
-    line(150, 25, 270, 350);  
+    // print the window of the car
+    
+    fill(255, 0, 0);
+    ellipse(215, 173, 180, 145);
+    fill(92, 237, 225);
+    ellipse(215, 180, 150, 130);
+    line(250, 175, 250, 123);
+    line(236, 175, 236, 118);
 
-    stroke(255);
-    line(50, 125, 70, 50);  
+    // print rectangle body of the car 
+
+    fill(255, 0, 0);
+    rect(60, 175, 265, 75, 30);
+
+    // print wheels of the car
+
+    fill(0);
+    circle(110, 250, 60);
+    circle(275, 250, 60);
+
+    // print headlights
+
+    fill(230, 226, 37);
+    rect(60, 190, 25, 25, 55);
+
+    // print doorhandles 
+
+    fill(0);
+    rect(200, 190, 30, 10, 10);
+
+    // print door
+
+    line(236, 175, 236, 250);
+    line(141, 175, 140, 250);
+
+    // print foreground
+
+    fill(121, 141, 143);
+    rect(0, 280, 400, 280);
+    
   }
   
   // define other methods down here.
