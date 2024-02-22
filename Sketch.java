@@ -6,27 +6,25 @@ public class Sketch extends PApplet {
 	
 	
   /**
-   * Called once at the beginning of execution, put your size all in this method
+   * Drawing of a car
+   * @linsteve25:
    */
   public void settings() {
-	// put your size call here
+
+	// size call
     size(400, 400);
+    
   }
 
-  /** 
-   * Called once at the beginning of execution.  Add initial set up
-   * values here i.e background, stroke, fill etc.
-   */
   public void setup() {
     
+    // Initial background and stroke
+
     background(81, 201, 245);
     stroke(18, 18 ,18);
 
   }
 
-  /**
-   * Called repeatedly, anything drawn to the screen goes here
-   */
   public void draw() {
 	  
     // print the window of the car
