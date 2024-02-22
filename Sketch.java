@@ -10,10 +10,10 @@ public class Sketch extends PApplet {
    * @linsteve25:
    */
   public void settings() {
-
-	// size call
-    size(400, 400);
     
+    // size call
+    size(400, 400);
+
   }
 
   public void setup() {
